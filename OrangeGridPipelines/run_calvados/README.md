@@ -54,7 +54,7 @@ make sure that the domains for your protein are included in single_IDR.py:
 ```bash
 vim single_IDR.py
 ```
-modify domain_dict = {...}, ~line 28 to add in your sequence and change any temperature, pH, or ionic strength. To close vim, do:
+modify domain_dict = {...}, ~line 28 to add in your sequence and change any temperature, pH, or ionic strength. To close vim, pres esc and type:
  
 ```bash
 :wq 
