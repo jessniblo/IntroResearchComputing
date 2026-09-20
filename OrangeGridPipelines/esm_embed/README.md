@@ -23,7 +23,7 @@ This will pull a directory from Meta that contains the scripts necessary to run 
 ---
 
 
-## 3. Prep fasta files
+### 3. Prep fasta files
 ```bash
 mkdir fastas
 mkdir fastas/to_run/
@@ -39,7 +39,7 @@ split_fasta.py will break your fasta into 50 chunks (could be even more chunks) 
 ---
 
 
-## 4. Submit the job 
+### 4. Submit the job 
 ```bash
 mkdir logs
 chmod +x run_esm2_to_embed.sh 
@@ -51,3 +51,7 @@ condor_submit submit_esm_job.sub
 ```
 
 ---
+
+### 5. Output 
+
+Embeddings will be saved in output_pt/{fasta_name}, with a .pt file saved per sequence for further analysis.

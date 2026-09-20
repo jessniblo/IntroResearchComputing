@@ -1,1 +1,9 @@
 # IntroResearchComputing
+
+Repository Structure: 
+```
+.
+├── 
+├── 
+└── 
+```

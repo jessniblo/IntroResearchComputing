@@ -66,3 +66,6 @@ condor_submit submit_calvados_job.sub
 ```
 
 ---
+
+### 5. Output 
+Simulations will be in CALVADOS3COM_2.0_MD_gpu_trial{trial}_{sequence_name} located in the src directory.
