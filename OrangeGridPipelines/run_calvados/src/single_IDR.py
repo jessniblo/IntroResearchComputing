@@ -41,7 +41,7 @@ domain_dict = { ##
 temp = 298.15  # unit: K
 pH = 7.2
 ionic =  0.1 # unit: M
-chain_breaks = [299]   
+chain_breaks = None   
 
 with open(f"{HOME}/CALVADOS/src/starting/{record}-seq.txt", "r") as file:
     fasta_sequence = ""

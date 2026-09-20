@@ -2,7 +2,7 @@
 
 PDB_FILE=$1
 SEQUENCE=$(basename "$PDB_FILE" .pdb)
-WORK_DIR="/home/$(whoami)/CALVADOS/src/init_AF_struc/${SEQUENCE}"
+WORK_DIR="/home/$(whoami)/CALVADOS/init_AF_struc/${SEQUENCE}"
 OUTPUT_DIR="/home/$(whoami)/CALVADOS/src/starting"
 
 echo "Starting: $SEQUENCE"

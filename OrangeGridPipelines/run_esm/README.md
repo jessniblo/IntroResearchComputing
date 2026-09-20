@@ -18,7 +18,7 @@ conda activate esm2
 pip install fair-esm
 git clone https://github.com/facebookresearch/esm.git
 ```
-This will pull a directory from Meta that contains the scripts necessary to run ESM 
+This will pull a directory from Meta that contains the scripts necessary to run ESM . There is also a .yml file if this command does not work.
 
 ---
 
